@@ -16,6 +16,8 @@ It allows you to:
 
 ## 📦 Installation
 
+Run the following command on the bash CLI.
+
 ```bash
 
 pip install mf-excel
@@ -30,9 +32,13 @@ Excel and Python **must have the same bitness**:
 | 64-bit | 64-bit Python |
 | 32-bit | 32-bit Python |
 
+Python version 3.12.7 works perfect for the package. A virtual environment can be created on VS Code IDE.
+
 ## 📊 Excel Integration (xlwings)
 
 **Install xlwings**
+
+On the bash CLI, run the following code.
 
 ```bash
 
@@ -58,20 +64,10 @@ pip install xlwings
 ## Running the Forecast Backend
 The backend is a Flask application that Excel communicates with over HTTP.
 
-**Option 1: Run from Command Line**
 
-```bash
-macroframe-forecast
-```
-This starts the service at:
+**Run from VS Code and Jupyter Notebook (Recommended)**
 
-```cpp
-
-http://127.0.0.1:5001
-```
-**Option 2: Run from Jupyter Notebook (Recommended)**
-
-This is the safest way to run Flask alongside Excel.
+This is the safest way to run Flask alongside Excel. Create a Jupyter Notebook file in your workspace on VS Code, select the virtual environment in your workspace as your Python interpreter, and paste and run the following code.
 
 ```python
 
@@ -210,7 +206,7 @@ MIT License - See [LICENSE](https://github.com/Kunlex58/mf-excel/blob/main/LICEN
 
 ## Next Steps 🗺️
 
-We will continue to monitor updates to the 'macroframe-forecast'. 
+We will continue to monitor updates to the `macroframe-forecast` package. 
 
 ## References
 
