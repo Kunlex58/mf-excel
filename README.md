@@ -195,7 +195,7 @@ These constraints are:
 
 
 ## License
-MIT License - See [LICENSE](https://github.com/Kunlex58/fstrcolor/blob/main/LICENSE) for details.
+MIT License - See [LICENSE](https://github.com/Kunlex58/mf-excel/blob/main/LICENSE) for details.
 
 ## Support Notes
 
