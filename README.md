@@ -14,7 +14,7 @@ It allows you to:
 
 ```bash
 
-pip install macroframe-excel
+pip install mf-excel
 ```
 
 **Windows Requirement (Important)**
