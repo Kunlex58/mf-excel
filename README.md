@@ -1,6 +1,6 @@
 # mf-excel - An Excel Integration for macroframe-forecast
 
-mf-excel provides Excel integration functionality for macroframe-forecast Python module developed by Ando et al., (2025).
+mf-excel provides Excel integration functionality for macroframe-forecast Python module developed by Ando et al., (2025). See [Github](https://github.com/Kunlex58/mf-excel/tree/main) for more resources.
 
 It allows you to:
 - Run constrained macroeconomic forecasts
