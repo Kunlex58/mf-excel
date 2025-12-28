@@ -195,7 +195,7 @@ These constraints are:
 
 
 ## License
- MIT License
+MIT License - See [LICENSE](https://github.com/Kunlex58/fstrcolor/blob/main/LICENSE) for details.
 
 ## Support Notes
 
