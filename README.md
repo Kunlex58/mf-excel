@@ -1,5 +1,9 @@
 # mf-excel - An Excel Integration for macroframe-forecast
 
+[![PyPI Version](https://img.shields.io/pypi/v/mf-excel.svg)](https://pypi.org/project/mf-excel/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/mf-excel.svg)](https://pypi.org/project/mf-excel/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kunlex58/fscolor/blob/main/LICENSE)
+
 mf-excel provides Excel integration functionality for macroframe-forecast Python module developed by [Ando et al., (2025)](https://www.imf.org/en/publications/wp/issues/2025/08/29/a-python-package-to-assist-macroframework-forecasting-concepts-and-examples-570041). See [Github](https://github.com/Kunlex58/mf-excel/tree/main) for more resources.
 
 It allows you to:
