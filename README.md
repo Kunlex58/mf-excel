@@ -206,7 +206,7 @@ MIT License - See [LICENSE](https://github.com/Kunlex58/mf-excel/blob/main/LICEN
 
 ## Next Steps 🗺️
 
-We will continue to monitor updates to the 'macroframe-forecast' and 
+We will continue to monitor updates to the 'macroframe-forecast' 
 
 ## References
 
