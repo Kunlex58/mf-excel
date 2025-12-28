@@ -46,8 +46,8 @@ pip install xlwings
 
 1. Reopen Excel
 2. Click on the xlwings menu
-3. Locate the *Interpreter* space and paste the Python PATH e.g. (C:\Users\macro\Desktop\mf_excel\.venv\Scripts\python.exe).
-4. Locate the *PYTHONPATH* space and paste the directory where your data for forecasting is stored.
+3. Locate the *Interpreter* space and paste the Python PATH e.g. `(C:\Users\macro\Desktop\mf_excel\.venv\Scripts\python.exe)`.
+4. Locate the *PYTHONPATH* space and paste the PATH where the excel_client folder in the mf_excel package is located e.g `(C:\Users\macro\Desktop\mf_excel_test\.venv\Lib\site-packages\mf_excel)`.
 5. Save the Excel file as Macro-Enabled Worksheet (.xlsm)
 
 
@@ -206,7 +206,7 @@ MIT License - See [LICENSE](https://github.com/Kunlex58/mf-excel/blob/main/LICEN
 
 ## Next Steps 🗺️
 
-We will continue to monitor updates to the 'macroframe-forecast' 
+We will continue to monitor updates to the 'macroframe-forecast'. 
 
 ## References
 
