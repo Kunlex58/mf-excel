@@ -37,18 +37,18 @@ pip install xlwings
 
 **Load the xlwings Add-in**
 
-**1.** Open Excel
-**2.** Go to Developer → Excel Add-ins → Browse
-**3.** Select xlwings.xlam
-**4.** Restart Excel if prompted
+1. Open Excel
+2. Go to **Developer → Excel Add-ins → Browse**
+3. Select `xlwings.xlam`
+4. Restart Excel if prompted
 
 ## Point the Python Interpreter and Work directory PATH to the xlwings
 
-**1.** Reopen Excel
-**2.** Click on the xlwings menu
-**3.** Locate the *Interpreter* space and paste the Python PATH e.g. (C:\Users\macro\Desktop\mf_excel\.venv\Scripts\python.exe).
-**4.** Locate the *PYTHONPATH* space and paste the directory where your data for forecasting is stored.
-**5.** Save the Excel file as Macro-Enabled Worksheet (.xlsm)
+1. Reopen Excel
+2. Click on the xlwings menu
+3. Locate the *Interpreter* space and paste the Python PATH e.g. (C:\Users\macro\Desktop\mf_excel\.venv\Scripts\python.exe).
+4. Locate the *PYTHONPATH* space and paste the directory where your data for forecasting is stored.
+5. Save the Excel file as Macro-Enabled Worksheet (.xlsm)
 
 
 ## Running the Forecast Backend
