@@ -189,9 +189,9 @@ These constraints are:
 
 ## Making Forecast
 
-**1.** With the backend already running, click the 'Settings' Button in the *Control* sheet. It will add a new sheet named 'Settings' in the Excel.
-**2.** Click on the *Settings* sheet and specify the forecaster model and parameters to use in your forecast. You must be familiar with the original work of Ando et al., (2025) to understand the process.
-**3.** After selecting forecaster and parameters, return to the *Control* sheet and click 'Run Forecast' Button. It will return the outputs and diagnostics in separate sheets after a few seconds or minutes depending on the model selected.
+1. With the backend already running, click the 'Settings' Button in the *Control* sheet. It will add a new sheet named 'Settings' in the Excel.
+2. Click on the *Settings* sheet and specify the forecaster model and parameters to use in your forecast. You must be familiar with the original work of Ando et al., (2025) to understand the process.
+3. After selecting forecaster and parameters, return to the *Control* sheet and click 'Run Forecast' Button. It will return the outputs and diagnostics in separate sheets after a few seconds or minutes depending on the model selected.
 
 
 ## License
