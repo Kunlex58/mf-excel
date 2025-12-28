@@ -125,10 +125,10 @@ End Sub
 
 ## Assigning Buttons in Excel Control Sheet
 
-**1.** Go to Insert → Shapes
-**2.** Draw a button and assign appropriate names (e.g Run Forecast or View Models)
-**3.** Right-click → Assign Macro
-**4.** Choose one of:
+1. Go to Insert → Shapes
+2. Draw a button and assign appropriate names (e.g Run Forecast or View Models)
+3. Right-click → Assign Macro
+4. Choose one of:
         - `RunMacroFrameForecast` (for Run Forecast Button)
         - `InsertMacroFrameCharts` (for Insert Charts Button)
         - `ViewMacroFrameModels` (for View Models Button)
