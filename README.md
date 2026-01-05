@@ -138,7 +138,11 @@ Note: The control sheet should have 4 buttons (Run Forecast, View Models, Insert
 
 ## Input Data Format
 
-Forecast input data must be in tabular form. See the example datasets 'test.csv' and 'test2.csv' on the Github. 
+Forecast input data must be provided in tabular form. Example datasets, test.csv and test2.csv, are available on GitHub.
+
+The test.csv dataset contains United States (US) nominal GDP data measured in trillions of US dollars. The test2.csv dataset contains US fiscal data — including revenue, expenditure, interest payments, and primary balance — all expressed as ratios to nominal GDP.
+
+Both datasets are sourced from the World Bank WDI database.
 
 Example:
 
