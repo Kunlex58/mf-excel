@@ -107,19 +107,19 @@ Create a VBA module in Excel (Alt + F11 → Insert → Module) and paste the fol
 ```vb
 
 Sub RunMacroFrameForecast()
-    RunPython "import macroframe_excel.excel_client.addin as a; a.run_forecast_button()"
+    RunPython "import mf_excel.excel_client.addin as a; a.run_forecast_button()"
 End Sub
 
 Sub InsertMacroFrameCharts()
-    RunPython "import macroframe_excel.excel_client.addin as a; a.insert_charts_button()"
+    RunPython "import mf_excel.excel_client.addin as a; a.insert_charts_button()"
 End Sub
 
 Sub ViewMacroFrameModels()
-    RunPython "import macroframe_excel.excel_client.addin as a; a.view_models_button()"
+    RunPython "import mf_excel.excel_client.addin as a; a.view_models_button()"
 End Sub
 
 Sub OpenMacroFrameSettings()
-    RunPython "import macroframe_excel.excel_client.addin as a; a.settings_button()"
+    RunPython "import mf_excel.excel_client.addin as a; a.settings_button()"
 End Sub
 ```
 
