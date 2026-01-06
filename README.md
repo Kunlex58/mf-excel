@@ -110,12 +110,12 @@ Sub RunMacroFrameForecast()
     RunPython "import mf_excel.excel_client.addin as a; a.run_forecast_button()"
 End Sub
 
-Sub InsertMacroFrameCharts()
-    RunPython "import mf_excel.excel_client.addin as a; a.insert_charts_button()"
-End Sub
-
 Sub ViewMacroFrameModels()
     RunPython "import mf_excel.excel_client.addin as a; a.view_models_button()"
+End Sub
+
+Sub InsertMacroFrameCharts()
+    RunPython "import mf_excel.excel_client.addin as a; a.insert_charts_button()"
 End Sub
 
 Sub OpenMacroFrameSettings()
