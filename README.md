@@ -130,8 +130,8 @@ End Sub
 3. Right-click → Assign Macro
 4. Choose one of:
    - `RunMacroFrameForecast` (for Run Forecast Button)
-   - `InsertMacroFrameCharts` (for Insert Charts Button)
    - `ViewMacroFrameModels` (for View Models Button)
+   - `InsertMacroFrameCharts` (for Insert Charts Button)
    - `OpenMacroFrameSettings` (for Settings Button)
 
 Note: The control sheet should have 4 buttons (Run Forecast, View Models, Insert Charts, Settings). 
