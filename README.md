@@ -36,16 +36,7 @@ Python version 3.12.7 works perfect for the package. A virtual environment can b
 
 ## 📊 Excel Integration (xlwings)
 
-**Install xlwings**
-
-On the bash CLI, run the following code.
-
-```bash
-
-pip install xlwings
-```
-
-**Load the xlwings Add-in**
+**Load the xlwings Add-in in the installed mf-excel package**
 
 1. Open Excel
 2. Go to **Developer → Excel Add-ins → Browse**
