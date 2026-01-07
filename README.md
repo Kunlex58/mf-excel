@@ -4,8 +4,7 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/mf-excel.svg)](https://pypi.org/project/mf-excel/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kunlex58/mf-excel/blob/main/LICENSE)
 
-[`mf-excel`](https://pypi.org/project/mf-excel/) provides Excel integration functionality for [`macroframe-forecast`](https://pypi.org/project/macroframe-forecast/) Python module developed by [Ando et al., (2025)](https://www.imf.org/en/publications/wp/issues/2025/08/29/a-python-package-to-assist-macroframework-forecasting-concepts-and-examples-570041). 
-
+[`mf-excel`](https://pypi.org/project/mf-excel/) provides Excel integration functionality for [`macroframe-forecast`](https://pypi.org/project/macroframe-forecast/) Python module developed by [Ando et al., (2025)](https://www.imf.org/en/publications/wp/issues/2025/08/29/a-python-package-to-assist-macroframework-forecasting-concepts-and-examples-570041).
 It allows you to:
 - Run constrained macroeconomic forecasts
 - Control models and constraints from Excel
@@ -36,7 +35,7 @@ Python version 3.12.7 works perfect for the package. A virtual environment can b
 
 ## 📊 Excel Integration (xlwings)
 
-**Load the xlwings Add-in in the installed mf-excel package**
+**Load the xlwings Add-in from the installed mf-excel package**
 
 1. Open Excel
 2. Go to **Developer → Excel Add-ins → Browse**
@@ -49,7 +48,7 @@ Python version 3.12.7 works perfect for the package. A virtual environment can b
 2. Click on the xlwings menu
 3. Locate the *Interpreter* space and paste the Python PATH e.g. `(C:\Users\macro\Desktop\mf_excel\.venv\Scripts\python.exe)`.
 4. Locate the *PYTHONPATH* space and paste the PATH where the excel_client folder in the mf_excel package is located e.g `(C:\Users\macro\Desktop\mf_excel_test\.venv\Lib\site-packages\mf_excel)`.
-5. Save the Excel file as Macro-Enabled Worksheet (.xlsm)
+5. Save the Excel file as Macro-Enabled Worksheet (.xlsm) 
 
 
 ## Running the Forecast Backend
@@ -89,11 +88,12 @@ Your Excel workbook should contain the following sheets:
 | ----------- | -------------------------------------------------------------- |
 | Input       | Time series data                                               |
 | Control     | Run Forecast, View Models, Insert Charts, and Settings Buttons |
+| Constraints | Equality or Inequality constraints                             |
 
 
 ## VBA Button Wiring
 
-Create a VBA module in Excel (Alt + F11 → Insert → Module) and paste the following:
+Create a VBA module in Excel (Alt + F11 → Insert → Module) and paste the following and save:
 
 ```vb
 
@@ -113,6 +113,13 @@ Sub OpenMacroFrameSettings()
     RunPython "import mf_excel.excel_client.addin as a; a.settings_button()"
 End Sub
 ```
+
+## Link xlwing in Excel Macro-Enabled Workbook (xlsm) to the VBA module
+
+1. Press `Alt + F11` on the windows keyboard to open the Macro VBA
+2. Navigate to Tools → References → and select `xlwings`
+3. Save 
+
 
 ## Assigning Buttons in Excel Control Sheet
 
