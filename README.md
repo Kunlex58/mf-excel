@@ -6,7 +6,7 @@
 
 [`mf-excel`](https://pypi.org/project/mf-excel/) provides Excel integration functionality for [`macroframe-forecast`](https://pypi.org/project/macroframe-forecast/) Python module developed by [Ando et al., (2025)](https://www.imf.org/en/publications/wp/issues/2025/08/29/a-python-package-to-assist-macroframework-forecasting-concepts-and-examples-570041).
 It allows you to:
-- Run constrained macroeconomic forecasts
+- Run constrained and unconstrained macroeconomic forecasts
 - Control models and constraints from Excel
 - Execute the engine via Flask (local or remote)
 - Integrate seamlessly with xlwings
