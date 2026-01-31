@@ -1,4 +1,4 @@
-# mf-excel - An Excel Integration for macroframe-forecast
+# mf-excel: An Excel Integration for macroframe-forecast
 
 [![PyPI Version](https://img.shields.io/pypi/v/mf-excel.svg)](https://pypi.org/project/mf-excel/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/mf-excel.svg)](https://pypi.org/project/mf-excel/)
