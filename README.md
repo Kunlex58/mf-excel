@@ -20,3 +20,6 @@ We will continue to monitor updates to the `macroframe-forecast` package.
 ## References
 
 Ando Sakai, Shuvam Das, and Sultan Orazbayev (2025). "A Python Package to Assist Macroframework Forecasting: Concepts and Examples", IMF Working Papers 2025, 172, accessed 28/12/2025, https://doi.org/10.5089/9798229023535.001
+
+## Disclaimer
+All usual disclosures apply. This work was produced independently by the author for educational and research purposes only and does not imply affiliation with any organisation.
