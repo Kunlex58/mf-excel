@@ -12,7 +12,7 @@ It allows you to:
 - Integrate seamlessly with xlwings
 ---
 ## Documentation
-See the documentation here [website](https://mfexcel.onrender.com) for guidance.
+See the documentation [here](https://mfexcel.onrender.com) for guidance.
 
 ## Next Steps 🗺️
 
