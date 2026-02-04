@@ -22,6 +22,14 @@ dependencies = [
   "simplejson==3.20.2",
 ]
 
+# Put classifiers here, inside [project]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
 [project.scripts]
 macroframe-forecast = "mf_excel.cli:run"
 
@@ -29,15 +37,6 @@ macroframe-forecast = "mf_excel.cli:run"
 Homepage = "https://mfexcel.onrender.com/"
 Repository = "https://github.com/Kunlex58/mf-excel"
 Documentation = "https://mfexcel.onrender.com/"
-
-[project.classifiers]
-# Use a list of trove classifiers; example entries below
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.12",
-  "License :: OSI Approved :: MIT License",
-  "Operating System :: OS Independent",
-]
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
