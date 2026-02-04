@@ -11,3 +11,7 @@ build/
 # Python caches
 __pycache__/
 *.pyc
+
+# Ignore dataset folders
+practice_datasets/
+forecast_output_examples/
