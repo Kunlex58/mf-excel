@@ -1,0 +1,3 @@
+# Exclude dataset folders from source distribution
+recursive-exclude practice_datasets *
+recursive-exclude forecast_output_examples *
