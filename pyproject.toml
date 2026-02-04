@@ -1,9 +1,9 @@
 [project]
 name = "mf-excel"
-version = "0.1.3"                
+version = "0.1.3"
 description = "An Excel integration for macroframe-forecast"
 readme = "README.md"
-license = "MIT"                 
+license = "MIT"
 requires-python = ">=3.12.7"
 
 authors = [
@@ -22,7 +22,6 @@ dependencies = [
   "simplejson==3.20.2",
 ]
 
-
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.12",
@@ -32,18 +31,11 @@ classifiers = [
 [project.scripts]
 macroframe-forecast = "mf_excel.cli:run"
 
-[tool.setuptools]
-# Explicit package discovery that excludes dataset folders
-packages = { find = { exclude = ["practice_datasets*", "forecast_output_examples*"] } }
-
-[tool.setuptools.packages.find]
-where = ["."]
-exclude = ["practice_datasets*", "forecast_output_examples*"]
-
 [project.urls]
 Homepage = "https://mfexcel.onrender.com/"
 Repository = "https://github.com/Kunlex58/mf-excel"
 Documentation = "https://mfexcel.onrender.com/"
+
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
