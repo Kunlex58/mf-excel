@@ -1,0 +1,13 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Python caches
+__pycache__/
+*.pyc
